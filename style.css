@@ -1,78 +1,167 @@
 body {
   margin: 0 auto;
 }
-img {
-  border-radius: 50%;
+#Anzu {
+  border-radius: 30px;
+  margin-left: 90px;
 }
 section {
   display: flex;
 }
 h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "EB Garamond", serif;
   color: chocolate;
-  
 }
-.first-div  {
+.first-div {
+  height: 550px;
+  width: 60%;
+  text-align: center;
+}
+.second-div {
   height: 550px;
   width: 40%;
-  text-align: center;
-  
-}
-.second-div{
-    height: 550px;
-  width: 40%;
-  
 }
 .first-div {
   margin: 30px 50px;
   padding: 20px 40px;
-  /* background-color: rgb(222, 212, 231); */
   
+  /* background-color: rgb(222, 212, 231); */
 }
-.second-div{
-    margin: 30px 50px;
+.second-div {
+  margin: 30px 50px;
   padding: 20px 40px;
   /* background-color: rgb(222, 212, 231); */
- 
+  background-image: url(images/shapes/shape-9.png);
+  background-repeat: no-repeat;
+  background-size: 450px;
+  background-position-x: 70px;
 }
-
-
+.s {
+  font-family: "Mea Culpa", cursive;
+  font-size: 45px;
+}
+#BL {
+  background-color: rgb(181, 231, 231);
+}
+#BL-2 {
+  background-color: rgb(231, 233, 122);
+}
+#IC {
+  background-color: rgb(223, 180, 180);
+}
+#SD {
+  background-color: rgb(203, 220, 187);
+}
+#Vibes {
+  background-color: rgb(240, 240, 196);
+}
+#Ayaana {
+  border-radius: 5%;
+  border-left: 10px solid orange;
+  height: 400px;
+  width: 350px;
+}
 p {
-  font-size: 50px;
+  font-size: 30px;
 }
 
-.KA{
-    font-size: 70px;
-    color: rgb(206, 70, 165);
+
 }
-.career{
-    font-size: 40px ;
-    text-align: center;
-    width: 50%;
-    height: 100px;
+
+.KA {
+  font-size: 70px;
+  color: rgb(206, 70, 165);
+  font-family: "Mea Culpa", cursive;
 }
-.second-section{
-    display: flex;
-    margin: 20px;
+.explore {
+  padding: 50 40;
+  height: 40px;
+  width: 140px;
+  border-radius: 10px;
+  background-image: linear-gradient(green yellow);
+  /* BAckground image didnt work , plz explain  */
+  background-color: rgb(112, 66, 172);
+  color: white;
 }
+
+.career {
+  font-size: 50px;
+  text-align: center;
+  width: 50%;
+  height: 100px;
+  color: forestgreen;
+
+  margin-left: 5%;
+}
+.first-section {
+  background-image: url(images/shapes/shape-4.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.second-section {
+  display: flex;
+  margin: 70px;
+  /* background-image: url(images/shapes/shape-4.png);
+    background-size:280px;
+    background-position:right;
+    background-repeat: no-repeat; */
+  width: 90%;
+  background-position-y: 70px;
+  height: 500px;
+}
+.third-section{
+  background-image: url(images/shapes/shape-4.png);
+
+  background-repeat: no-repeat;
+}
+.PH{
+  text-decoration: none;
+}
+
 div.job {
-    width: 300px;
-    height: 200px;
-    margin: 40px 20px;
-    border: 2px solid gray;
-    text-align: center;
-    
+  width: 350px;
+  height: 350px;
+  margin: 40px 20px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  text-align: center;
+
+  text-align: center;
+  background-color: rgb(178, 209, 238);
 }
-h4{
-    font-size: 25px;
-    color: darkcyan;
+h1 {
+  font-size: 35px;
+  color: grey;
 }
-h5{
-    font-size: 20px;
-    color:darkgrey;
+h4 {
+  font-size: 25px;
+  color: darkcyan;
 }
-h6{
-    font-size: 16px;
-    color: lightseagreen;
+h5 {
+  font-size: 20px;
+  color: rgb(128, 123, 123);
+}
+h6 {
+  font-size: 16px;
+  color: lightseagreen;
+}
+.Ayyanaimage-div {
+  margin: 30px 50px;
+  padding: 20px 40px;
+}
+.Ayaana-div{
+  height: 550px;
+  width: 60%;
+  text-align: center;
+}
+.footer {
+  background-color: black;
+  color: azure;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+.footer-div {
+  padding: 40px;
 }
